@@ -5,5 +5,5 @@ The analysis includes division of employees by gender, marital status, age group
 - **Excel** - Data Cleaning of the dataset
 - **Power Bi** - Visualising the data
 ## Key Insights per Dashboard
-1. Employee Overview
+#1. Employee Overview
 ![Hr Dashboard Overview](Images/Overview.png)
