@@ -11,5 +11,5 @@ The analysis includes division of employees by gender, marital status, age group
 - **Average Employee Age** = 37yrs
 - **Average Employee Tenure** = 7yrs
 ## Key Insights per Dashboard
-1. Employee Overview
+**1. Employee Overview**
 ![Hr Dashboard Overview](Images/Overview.png)
