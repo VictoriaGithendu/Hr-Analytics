@@ -42,6 +42,6 @@ The analysis includes division of employees by gender, marital status, age group
   -  Sales showed wide income variation at similar performance levels—potentially reflecting commission structures or role-based incentives.
   -  HR and R&D displayed tighter clusters, where compensation followed a more consistent trajectory with performance.
   -  These gaps signal possible inequities in compensation strategy and opportunities to rebalance incentives.
--  Attrition
+- Attrition
   - 31 top performers have left the organization, indicating potential risks in retaining high-value talent.
   - Employees who left with high performance scores may reflect underlying issues such as unmet career growth expectations, compensation misalignment or lack of recognition.
