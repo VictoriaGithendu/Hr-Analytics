@@ -20,23 +20,23 @@ _Source: IBM HR Analytics Employee Attrition & Performance (Kaggle)_
 
 ## 🛠 Tools Used
 
-- **Excel** – For data cleaning and initial formatting
-- **Power BI** – For data modeling, dashboard creation, and visualization
-- **DAX (Data Analysis Expressions)** – For calculated metrics and custom KPIs in Power BI
+- **Excel** – For data cleaning and initial formatting  
+- **Power BI** – For data modeling, dashboard creation, and visualization  
+- **DAX (Data Analysis Expressions)** – For calculated metrics and custom KPIs in Power BI  
 
 ---
 
 ## 📊 General Insights
 
 - 👥 **Total Employees:** 1,470  
-- 🔻 **Attrition Percentage:** 17%  
+- 🔻 **Attrition Percentage:** 16.1%  
 - 🔻 **Attrition Count:** 237  
 - 🎂 **Average Age:** 37 years  
 - 🕒 **Average Tenure:** 7 years  
 
 ---
 
-## 📁 Key Insights by Dashboard
+## Key Insights by Dashboard
 
 ---
 
@@ -44,13 +44,13 @@ _Source: IBM HR Analytics Employee Attrition & Performance (Kaggle)_
 ![HR Dashboard Overview](Images/Overview.png)
 
 **Highlights:**
-- **Gender Split:** 60% Male (882), 40% Female (588)
-- **Dominant Age Group:** 26–35 years (606 employees); least = 56–65 years (47 employees)
-- **Department Distribution:** R&D = 65.4% (961 employees)
+- **Gender Split:** 60% Male (882), 40% Female (588)  
+- **Dominant Age Group:** 26–35 years (606 employees); least = 56–65 years (47 employees)  
+- **Department Distribution:** R&D = 65.4% (961 employees)  
 - **Tenure Breakdown:**
   - 0–5 Years: 52.8% (776 employees)
-  - 20+ Years: 4.5% (66 employees)
-- **Marital Status:** 45.8% of employees are married
+  - 20+ Years: 4.5% (66 employees)  
+- **Marital Status:** 45.8% of employees are married  
 
 ---
 
@@ -58,10 +58,17 @@ _Source: IBM HR Analytics Employee Attrition & Performance (Kaggle)_
 ![Attrition Dashboard](Images/Attrition.png)
 
 **Key Insights:**
-- **R&D** has the highest number of employees who left, while **Sales** has the highest attrition rate (23%)
-- **Top attrition group**: Employees with 2–3 years tenure
-- **Males under 30** in technical roles show higher attrition trends
-- **31 top performers** exited, highlighting potential risk areas in engagement or rewards
+- **Attrition Rate:** 16.1% (237 employees out of 1,470)  
+- **Most Affected Department:** R&D leads with the highest attrition count (133), while Sales has the highest attrition rate (21%)  
+- **Average Exit Age & Tenure:** Age 34 with 5 years at the company  
+- **Education Fields:** Life Sciences (89) and Medical (63) account for the most exits — consider reviewing workload or career growth in these fields  
+- **Age Group:** Employees aged 26–35 are the most affected (49% of exits), possibly due to career mobility or unmet expectations  
+- **Roles Most Affected:** Lab Technicians (62 exits), Research Scientists (47), and Managers (25)  
+- **Satisfaction Levels:** Attrition is spread across all satisfaction scores — further feedback may be needed to uncover hidden dissatisfaction  
+- **Performance vs. Income:** No clear link between high pay or performance and retention — suggests non-financial factors (like growth or engagement) are driving exits  
+
+**Implications:**  
+Review employee engagement strategies, especially for mid-career staff in technical roles. Support retention through clearer growth paths, recognition, and mentoring.
 
 ---
 
@@ -69,44 +76,41 @@ _Source: IBM HR Analytics Employee Attrition & Performance (Kaggle)_
 ![HR Performance Overview](Images/Performance.png)
 
 **Performance by Tenure**
-- 11–15 years tenure = highest average rating (3.22)
-- Newer employees (0–5 years) average 3.15
-- 20+ year tenure group shows slight decline (3.12)
+- 11–15 years tenure = highest average rating (3.22)  
+- Newer employees (0–5 years) average 3.15  
+- 20+ year tenure group shows slight decline (3.12)  
 
 **Departmental Performance**
-- Sales performs slightly above others (3.16)
-- Narrow performance spread suggests consistent evaluation but limited differentiation
+- Sales performs slightly above others (3.16)  
+- Narrow performance spread suggests consistent evaluation but limited differentiation  
 
 **Training vs. Performance**
-- 2–4 training sessions = strongest performers
-- No/low training correlates with underperformance
+- 2–4 training sessions = strongest performers  
+- No/low training correlates with underperformance  
 
 **Performance vs. Monthly Income**
-- Positive but non-linear relationship
-- Sales shows wide income range at similar performance levels (commission-based?)
-- HR and R&D = more consistent compensation structure
+- Positive but non-linear relationship  
+- Sales shows wide income range at similar performance levels (commission-based?)  
+- HR and R&D = more consistent compensation structure  
 
 **Attrition Risk**
-- 31 top performers exited, pointing to issues like unmet career goals or pay misalignment
+- 31 top performers exited, pointing to issues like unmet career goals or pay misalignment  
 
 ---
 
 ### **4. Diversity Dashboard**  
-![Diversity Dashboard](Images/Diversity.png) *(Insert screenshot)*
+![Diversity Dashboard](Images/Diversity.png)
 
 **Key Insights:**
-- Gender imbalance exists in some departments
-- Younger employees (under 30) make up 22% of the workforce
-- 31% of employees work overtime — with higher incidence in certain roles
-- Frequent travelers account for 18% of staff
-- Average commute distance is 8.6 km; environment satisfaction is high (3.6/4)
+- **Travel & Commute:** 20% of employees travel frequently; average commute distance is 9.2 km  
+- **Workplace Experience:** Environment satisfaction is moderate (2.7/4), and employees have worked at ~2.7 previous companies  
+- **Overtime Load:** 30% of employees work overtime — more common among males (236 vs 180 females)  
+- **Gender by Department:** R&D and Sales are male-dominated; HR has more female staff  
+- **Education by Gender:** Education Level 3 and 4 are most common for both genders  
+- **Gender Pay Gap by Tenure:** Males earn more at every tenure level, suggesting a potential gender-based income gap  
+- **Job Role Distribution:** Technical and leadership roles skew male, while healthcare and HR roles have higher female representation  
+
+**Implications:**  
+Consider equity audits and role-based training to promote fair opportunities and address gender imbalances. Review overtime and satisfaction by department to improve inclusivity and work-life balance.
 
 ---
-
-## 📌 Project Summary
-
-This analysis helps identify:
-- Workforce diversity gaps
-- Attrition trends by role, age, and performance
-- Performance-related retention risks
-- Strategic areas for improving employee satisfaction, equity, and developme
