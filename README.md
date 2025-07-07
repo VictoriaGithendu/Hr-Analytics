@@ -14,7 +14,7 @@ The dataset is a fictional HR dataset containing 1,470 employee records with fie
 - Employee History (Years at Company, Number of Companies Worked, Business Travel)
 - Performance Ratings and Attrition Status
 
-_Source: IBM HR Analytics Employee Attrition & Performance (Kaggle)_
+_Source: [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)_
 
 ---
 
@@ -59,24 +59,24 @@ _Source: IBM HR Analytics Employee Attrition & Performance (Kaggle)_
 
 **Attrition Overview**
 - 237 employees left the company, giving an attrition rate of 16.1%.
-- Average age of attrition: **34yrs**; average tenure: **5yrs**
-   
+- Average age at attrition: **34 years**; average tenure: **5 years**.
+
 **Attrition by Department and Role**
 - R&D had the highest number of exits (133 employees).
-- Sales has the highest attrition rate  of 21%, despite having fewer total exits than R&D.
+- Sales had the highest attrition rate at 21%, despite having fewer total exits than R&D.
 - Lab Technicians (62), Research Scientists (47), and Managers (25) were the most affected roles.
-       
-**Attrition by Demographics**
-- The age group(26–35) experienced the highest attrition(116 employees), sugessting career mobility or unmet expectations.
- - Life Sciences (89) and Medical (63) account for the most exits — consider reviewing workload or career growth in these fields.
-   
-**Attrition by Satisfaction and Performance**
-- Employees across all satisfaction scores exited, including middle to high scores, indicating other hidden drivers beyond work conditions.
-- No clear link between high pay or performance and retention — suggests non-financial factors (like growth or engagement) are driving exits. 
 
-**Implications**  
-- Review retention efforts for mid-career staff in technical roles.
-- Reassess career development, recognition and promotion opportunities in high risk roles.
+**Attrition by Demographics**
+- The age group 26–35 years experienced the highest attrition (116 employees), suggesting career mobility or unmet expectations.
+- Life Sciences and Medical education fields had the most exits (89 and 63 respectively).
+
+**Attrition by Satisfaction and Performance**
+- Employees across all satisfaction levels exited, including mid-to-high scores — indicating other hidden drivers beyond work conditions.
+- No strong correlation between performance/income and attrition, suggesting non-financial factors may be influencing exits.
+
+**Implications**
+- Review retention efforts for mid-career professionals in technical roles.
+- Reassess career development, recognition, and promotion opportunities in high-risk roles.
 
 ---
 
@@ -117,22 +117,20 @@ _Source: IBM HR Analytics Employee Attrition & Performance (Kaggle)_
 **Workplace Conditions**
 - 20% of employees travel frequently.
 - Average commute distance is 9.2 km.
-- Environment satisfaction is moderate at 2.7 out of 4.
+- Environment satisfaction scores average at 2.7 out of 4.
 - Career mobility is moderate, with an average of 2.7 previous companies worked.
-- 30% of employees work overtime, more common among males(236) than (180) females.
-   
+- 30% of employees work overtime, more common among males (236) than females (180).
+
 **Gender Distribution**
-- R&D and Sales are male-dominated.
-- HR department has a higher female population.
-- Male employees earn more than female employees at every tenure level, suggesting a potential gender-based income gap.
+- R&D and Sales departments are male-dominated.
+- HR department has a higher female representation.
+- Male employees consistently earn more than females across all tenure levels.
 
-**Education and roles by gender**
-- Education Level 3 and 4 are most common for both genders.
-- Males dominate technical and leadership roles, while healthcare and HR roles have higher female representation.  
+**Education and Roles by Gender**
+- Education Level 3 and 4 are the most common for both genders.
+- Males dominate technical and leadership roles, while females are more represented in healthcare and HR roles.
 
-**Implications:**  
-- Consider equity audits and role-based training to promote fair opportunities and address gender imbalances.
-- Review overtime and satisfaction by department to improve inclusivity and work-life balance.
-- Promote inclusive growth strategies to balance leadership representative.
-
----
+**Implications**
+- Consider implementing equity audits and salary benchmarking to address gender income gaps.
+- Promote inclusive growth strategies to balance leadership representation.
+- Analyze overtime workloads by gender to ensure fair work-life balance practices.
