@@ -57,18 +57,26 @@ _Source: IBM HR Analytics Employee Attrition & Performance (Kaggle)_
 ### **2. Employee Attrition**  
 ![Attrition Dashboard](Images/Attrition.png)
 
-**Key Insights:**
-- **Attrition Rate:** 16.1% (237 employees out of 1,470)  
-- **Most Affected Department:** R&D leads with the highest attrition count (133), while Sales has the highest attrition rate (21%)  
-- **Average Exit Age & Tenure:** Age 34 with 5 years at the company  
-- **Education Fields:** Life Sciences (89) and Medical (63) account for the most exits — consider reviewing workload or career growth in these fields  
-- **Age Group:** Employees aged 26–35 are the most affected (49% of exits), possibly due to career mobility or unmet expectations  
-- **Roles Most Affected:** Lab Technicians (62 exits), Research Scientists (47), and Managers (25)  
-- **Satisfaction Levels:** Attrition is spread across all satisfaction scores — further feedback may be needed to uncover hidden dissatisfaction  
-- **Performance vs. Income:** No clear link between high pay or performance and retention — suggests non-financial factors (like growth or engagement) are driving exits  
+**Attrition Overview**
+- 237 employees left the company, giving an attrition rate of 16.1%.
+- Average age of attrition: **34yrs**; average tenure: **5yrs**
+   
+**Attrition by Department and Role**
+- R&D had the highest number of exits (133 employees).
+- Sales has the highest attrition rate  of 21%, despite having fewer total exits than R&D.
+- Lab Technicians (62), Research Scientists (47), and Managers (25) were the most affected roles.
+       
+**Attrition by Demographics**
+- The age group(26–35) experienced the highest attrition(116 employees), sugessting career mobility or unmet expectations.
+ - Life Sciences (89) and Medical (63) account for the most exits — consider reviewing workload or career growth in these fields.
+   
+**Attrition by Satisfaction and Performance**
+- Employees across all satisfaction scores exited, including middle to high scores, indicating other hidden drivers beyond work conditions.
+- No clear link between high pay or performance and retention — suggests non-financial factors (like growth or engagement) are driving exits. 
 
-**Implications:**  
-Review employee engagement strategies, especially for mid-career staff in technical roles. Support retention through clearer growth paths, recognition, and mentoring.
+**Implications**  
+- Review retention efforts for mid-career staff in technical roles.
+- Reassess career development, recognition and promotion opportunities in high risk roles.
 
 ---
 
@@ -76,41 +84,55 @@ Review employee engagement strategies, especially for mid-career staff in techni
 ![HR Performance Overview](Images/Performance.png)
 
 **Performance by Tenure**
-- 11–15 years tenure = highest average rating (3.22)  
-- Newer employees (0–5 years) average 3.15  
-- 20+ year tenure group shows slight decline (3.12)  
+- Employees with 11–15 years of tenure have the highest average performance rating (3.22).
+- Newer employees (0–5 years) perform steadily at an average of 3.15.
+- A slight decline is observed in the 20+ year group (avg. 3.12), which may suggest a need for renewed engagement at this stage.
 
 **Departmental Performance**
-- Sales performs slightly above others (3.16)  
-- Narrow performance spread suggests consistent evaluation but limited differentiation  
+- The Sales department slightly outperforms others, with an average score of 3.16.
+- Performance ratings across all departments are close, indicating consistent evaluation but possibly masking distinctions between high and average performers.
 
 **Training vs. Performance**
-- 2–4 training sessions = strongest performers  
-- No/low training correlates with underperformance  
+- Employees who completed 2–4 training sessions performed the best, with scores consistently in the 70–80 range.
+- Employees with no or minimal training tended to underperform, showing the value of structured learning and development.
 
 **Performance vs. Monthly Income**
-- Positive but non-linear relationship  
-- Sales shows wide income range at similar performance levels (commission-based?)  
-- HR and R&D = more consistent compensation structure  
+- There's a positive but non-linear relationship between performance and income.
+- Sales employees show wide income variation at similar performance levels, possibly due to commission structures.
+- HR and R&D departments display tighter clusters, with compensation more directly aligned to performance.
 
 **Attrition Risk**
-- 31 top performers exited, pointing to issues like unmet career goals or pay misalignment  
+- A total of 31 top performers left the company.
+- These exits suggest possible issues such as lack of recognition, limited career progression, or compensation misalignment.
+
+**Implications**
+- Consider enhancing training initiatives and differentiating performance rewards more clearly.
+- Analyze why high performers are leaving and apply targeted retention strategies for key roles and tenure bands.
 
 ---
 
 ### **4. Diversity Dashboard**  
 ![Diversity Dashboard](Images/Diversity.png)
 
-**Key Insights:**
-- **Travel & Commute:** 20% of employees travel frequently; average commute distance is 9.2 km  
-- **Workplace Experience:** Environment satisfaction is moderate (2.7/4), and employees have worked at ~2.7 previous companies  
-- **Overtime Load:** 30% of employees work overtime — more common among males (236 vs 180 females)  
-- **Gender by Department:** R&D and Sales are male-dominated; HR has more female staff  
-- **Education by Gender:** Education Level 3 and 4 are most common for both genders  
-- **Gender Pay Gap by Tenure:** Males earn more at every tenure level, suggesting a potential gender-based income gap  
-- **Job Role Distribution:** Technical and leadership roles skew male, while healthcare and HR roles have higher female representation  
+**Workplace Conditions**
+- 20% of employees travel frequently.
+- Average commute distance is 9.2 km.
+- Environment satisfaction is moderate at 2.7 out of 4.
+- Career mobility is moderate, with an average of 2.7 previous companies worked.
+- 30% of employees work overtime, more common among males(236) than (180) females.
+   
+**Gender Distribution**
+- R&D and Sales are male-dominated.
+- HR department has a higher female population.
+- Male employees earn more than female employees at every tenure level, suggesting a potential gender-based income gap.
+
+**Education and roles by gender**
+- Education Level 3 and 4 are most common for both genders.
+- Males dominate technical and leadership roles, while healthcare and HR roles have higher female representation.  
 
 **Implications:**  
-Consider equity audits and role-based training to promote fair opportunities and address gender imbalances. Review overtime and satisfaction by department to improve inclusivity and work-life balance.
+- Consider equity audits and role-based training to promote fair opportunities and address gender imbalances.
+- Review overtime and satisfaction by department to improve inclusivity and work-life balance.
+- Promote inclusive growth strategies to balance leadership representative.
 
 ---
